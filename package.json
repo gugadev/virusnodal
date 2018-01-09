@@ -1,0 +1,33 @@
+{
+  "name": "virusnodal",
+  "version": "0.1.0",
+  "description": "VirusTotal analyzer",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gugadev/virusnodal.git"
+  },
+  "keywords": [
+    "virustotal",
+    "node",
+    "malware"
+  ],
+  "author": "Gustavo Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gugadev/virusnodal/issues"
+  },
+  "homepage": "https://github.com/gugadev/virusnodal#readme",
+  "dependencies": {
+    "ascii-art": "^1.4.2",
+    "chalk": "^2.3.0",
+    "console-clear": "^1.0.0",
+    "form-data": "^2.3.1",
+    "got": "^8.0.1",
+    "inquirer": "^5.0.0",
+    "ora": "^1.3.0"
+  }
+}
