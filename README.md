@@ -1,4 +1,4 @@
-<h1 align="center">VirusNodal</center>
+<h1 align="center">VirusNodal</h1>
 
 <p align="center">
   <img src="virusnodal.gif" />
