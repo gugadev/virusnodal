@@ -30,7 +30,6 @@ async function bootstrap() {
 
   const report = await getReport(resource)
   const output = showReport(report)
-  console.log()
   console.log(chalk.white.bold.underline('Results:'))
   console.log()
   console.log(output)
