@@ -20,7 +20,7 @@ exports.analyze = async (path, onProgress) => {
   return resource
 }
 
-exports.getReport = (resource) => {
+exports.getReport = async (resource) => {
   const response = await got(`${URI}/report?apikey=${KEY}&resource=${resource}`)
   const {
     positives,
