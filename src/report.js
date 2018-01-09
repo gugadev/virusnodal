@@ -17,9 +17,9 @@ function header(text) {
 
 function footer(detected, total) {
   return [
-    chalk.bgWhite(chalk.rgb(0,0,0).bold('Detected:')),
+    chalk.bgWhite(chalk.rgb(0,0,0).bold('Detected')),
     chalk.bgGreen(chalk.white.bold(detected)),
-    chalk.bgWhite(chalk.rgb(0,0,0).bold('Total:')),
+    chalk.bgWhite(chalk.rgb(0,0,0).bold('Total')),
     chalk.bgRed(chalk.white.bold(total)),
   ]
 }
